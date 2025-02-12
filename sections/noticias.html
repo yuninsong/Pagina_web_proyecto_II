@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Noticias universitarias de la Unexca, incluyendo información sobre el inicio de clases, horarios, eventos académicos y actualizaciones administrativas para estudiantes y docentes.">
+
+
+
+<!--Meta tags para se comparta la pagina-->
+<meta property="og:title" content="">
+<meta property="og:image" content="">
+<meta property="og:description" content="">
+<meta property="og:url" content="">
+
+<!--Meta tags para compartir-->
+
+    <title>Información Universitaria</title>
+    <link rel="stylesheet" href="/css/general-style.css">
+    <link rel="stylesheet" href="/css/style-noticias.css">
+    <link rel="icon" href="/assets/icon/logo-unexca_favicon-32x32.png" type="image/png">
+</head>
+<body>
+
+    <header class="header-news">
+        <div id="navbar"></div>
+        <script>
+            fetch("navbar.html")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("navbar").innerHTML = data;
+                });
+        </script>
+        </header>
+
+        <h1 class="news-title">Novedades en la UNEXCA</h1>
+
+        <div class="main-container">
+            <main class="main">
+                <div class="news-wrap">
+                    <div class="news-container">
+                        <div class="main-new">
+                            <div class="main__new-container">
+                                <article>
+                                    <a href="#">
+                                        <div class="main__post__image-container">
+                                            <img class="main__post-image" src="/assets/img/unnamed-1.png" alt="">
+                                        </div>
+                                        <h2 class="main__post-title">Noticia principal</h2>
+                                        <p class="main__post-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt perspiciatis voluptas dolor, harum beatae architecto distinctio praesentium culpa veniam natus odit tempore. Illum, repellat maxime? Eos velit quia modi ipsum.</p>
+                                    </a>
+                                </article>
+                            </div>
+                        </div>
+                <!--------------------ASIDE----------------------->
+                        <div class="aside-news">
+                            <aside class="aside">
+                                <article class="aside-post">
+                                    <a href="#">
+                                        <div class="aside__post__image-container">
+                                            <img class="aside__post-image" src="/assets/img/unnamed-1.png" alt="">
+                                        </div>
+                                        <h4 class="aside__post-title">evento 1</h4>
+                                    </a>
+                                </article>
+                                <article class="aside-post">
+                                    <a href="#">
+                                        <div class="aside__post__image-container">
+                                            <img class="aside__post-image" src="/assets/img/unnamed-1.png" alt="">
+                                        </div>
+                                        <h4 class="aside__post-title">evento 2</h4>
+                                    </a>
+                                </article>
+                                <article class="aside-post">
+                                    <a href="#">
+                                        <div class="aside__post__image-container">
+                                            <img class="aside__post-image" src="/assets/img/unnamed-1.png" alt="">
+                                        </div>
+                                        <h4 class="aside__post-title">evento 3</h4>
+                                    </a>
+                                </article>
+                                <article class="aside-post">
+                                    <a href="#">
+                                        <div class="aside__post__image-container">
+                                            <img class="aside__post-image" src="/assets/img/unnamed-1.png" alt="">
+                                        </div>
+                                        <h4 class="aside__post-title">evento 4</h4>
+                                    </a>
+                                </article>
+                            </aside>
+                        </div>
+                    <!--------------------------Noticias secundarias-------------->
+                        <div class="second-new">
+                            <article class="second-post">
+                                <a href="#">
+                                    <div class="second__post__image-container">
+                                        <img class="second__post-image" src="/assets/img/unnamed-1.png" alt="">
+                                    </div>
+                                    <h3 class="second__post-title">Noticia 1</h3>
+                                    <p class="second__post-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, consequatur mollitia! Animi, impedit itaque doloribus mollitia voluptatem velit alias ea officia, facere, aliquam tenetur expedita ipsam id fuga optio accusamus!</p>
+                                </a>
+                            </article>
+                        </div>
+                        <div class="second-new">
+                            <article class="second-post">
+                                <a href="#">
+                                    <div class="second__post__image-container">
+                                        <img class="second__post-image" src="/assets/img/unnamed-1.png" alt="">
+                                    </div>
+                                    <h3 class="second__post-title">Noticia 2</h3>
+                                    <p class="second__post-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, consequatur mollitia! Animi, impedit itaque doloribus mollitia voluptatem velit alias ea officia, facere, aliquam tenetur expedita ipsam id fuga optio accusamus!</p>
+                                </a>
+                            </article>
+                        </div>
+                        <div class="second-new">
+                            <article class="second-post">
+                                <a href="#">
+                                    <div class="second__post__image-container">
+                                        <img class="second__post-image" src="/assets/img/unnamed-1.png" alt="">
+                                    </div>
+                                    <h3 class="second__post-title">Noticia 3</h3>
+                                    <p class="second__post-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, consequatur mollitia! Animi, impedit itaque doloribus mollitia voluptatem velit alias ea officia, facere, aliquam tenetur expedita ipsam id fuga optio accusamus!</p>
+                                </a>
+                            </article>
+                        </div>
+                        <div class="second-new">
+                            <article class="second-post">
+                                <a href="#">
+                                    <div class="second__post__image-container">
+                                        <img class="second__post-image" src="/assets/img/unnamed-1.png" alt="">
+                                    </div>
+                                    <h3 class="second__post-title">Noticia 4</h3>
+                                    <p class="second__post-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, consequatur mollitia! Animi, impedit itaque doloribus mollitia voluptatem velit alias ea officia, facere, aliquam tenetur expedita ipsam id fuga optio accusamus!</p>
+                                </a>
+                            </article>
+                        </div>
+                        <div class="second-new">
+                            <article class="second-post">
+                                <a href="#">
+                                    <div class="second__post__image-container">
+                                        <img class="second__post-image" src="/assets/img/unnamed-1.png" alt="">
+                                    </div>
+                                    <h3 class="second__post-title">Noticia 5</h3>
+                                    <p class="second__post-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, consequatur mollitia! Animi, impedit itaque doloribus mollitia voluptatem velit alias ea officia, facere, aliquam tenetur expedita ipsam id fuga optio accusamus!</p>
+                                </a>
+                            </article>
+                        </div>
+                        <div class="second-new">
+                            <article class="second-post">
+                                <a href="#">
+                                    <div class="second__post__image-container">
+                                        <img class="second__post-image" src="/assets/img/unnamed-1.png" alt="">
+                                    </div>
+                                    <h3 class="second__post-title">Noticia 6</h3>
+                                    <p class="second__post-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, consequatur mollitia! Animi, impedit itaque doloribus mollitia voluptatem velit alias ea officia, facere, aliquam tenetur expedita ipsam id fuga optio accusamus!</p>
+                                </a>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </main>    
+        </div>
+
+
+
+
+
+        <div id="footer"> </div>
+        <script>
+            fetch("footer.html")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("footer").innerHTML = data;
+                });
+        </script>
+    
+</body>
+</html>

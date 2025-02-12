@@ -1,0 +1,15 @@
+body {
+    background-color: #001A54 !important; 
+    color: #000 !important; }
+.main-faq{min-height: 100vh;}
+.header-faq{padding-bottom: 90px;}
+.text-custom { color: #1E3A5F !important; }
+.btn-custom { background-color: #1E3A5F !important; border-color: #1E3A5F !important; color: white !important; }
+.btn-custom:hover { background-color: #16314A !important; border-color: #16314A !important; }
+.header__submenu {
+
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.faq-footer{margin-top: 20vh;}

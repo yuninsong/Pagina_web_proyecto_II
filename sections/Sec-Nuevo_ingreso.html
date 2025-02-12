@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Información actualizada para los estudiantes de nuevo ingreso en la Unexca: fechas importantes, requisitos académicos, noticias y eventos">
+
+
+
+<!--Meta tags para se comparta la pagina-->
+<meta property="og:title" content="">
+<meta property="og:image" content="">
+<meta property="og:description" content="">
+<meta property="og:url" content="">
+
+<!--Meta tags para compartir-->
+
+    <title>Nuevo ingreso</title>
+    <link rel="stylesheet" href="/css/general-style.css">
+    <link rel="stylesheet" href="/css/style-carreras.css">
+    <link rel="icon" href="/assets/icon/logo-unexca_favicon-32x32.png" type="image/png">
+</head>
+<body>
+
+
+
+    <header class="carrera-header">
+        <div id="navbar"></div>
+        <script>
+            fetch("navbar.html")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("navbar").innerHTML = data;
+                });
+        </script>
+        
+        </header>
+
+
+        <div class="wrap-container">
+            <div class="title-wrap">
+                <h1 class="carrera-title">Nuevo Ingreso</h1>
+                    <p class="carrera-text">
+                        El Trayecto Inicial está diseñado para los estudiantes de nuevo ingreso de la Universidad Experimental de Caracas (UNEXCA) como una fase propedéutica antes de comenzar con las materias específicas de su carrera. Durante este trayecto, los estudiantes se introducen en temas fundamentales que les permitirán comprender mejor el contexto social, político y académico en el que se desarrollarán. Las asignaturas que conforman este trayecto buscan fortalecer competencias esenciales como la comunicación, el pensamiento estratégico, y la comprensión de la realidad nacional e internacional, además de ofrecer una perspectiva amplia sobre la sociedad y la informática.
+                    </p>
+            </div>
+        
+        <div class="main">
+            <div class="post__section">
+                <h2 class="section-post__title">Últimos Posts</h2>
+        
+                    <article class="post">
+                        <header class="post-header">
+                            <h3 class="post-title">Post 1</h3>
+                        </header>
+                        <p class="post-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit cupiditate labore nihil nulla voluptatum veniam repellendus culpa ipsam aliquam, ex dolore illum. Repudiandae corporis dolorem, placeat quisquam laudantium consequuntur soluta.
+                        </p>
+                    </article>
+        
+                    <article class="post">
+                        <header class="post-header">
+                            <h3 class="post-title">Post 2</h3>
+                        </header>
+                        <p class="post-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit cupiditate labore nihil nulla voluptatum veniam repellendus culpa ipsam aliquam, ex dolore illum. Repudiandae corporis dolorem, placeat quisquam laudantium consequuntur soluta.
+                        </p>
+                    </article>
+        
+                    <article class="post">
+                        <header class="post-header">
+                            <h3 class="post-title">Post 3</h3>
+                        </header>
+                        <p class="post-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit cupiditate labore nihil nulla voluptatum veniam repellendus culpa ipsam aliquam, ex dolore illum. Repudiandae corporis dolorem, placeat quisquam laudantium consequuntur soluta.
+                        </p>
+                    </article>
+        
+                    <article class="post">
+                        <header class="post-header">
+                            <h3 class="post-title">Post 4</h3>
+                        </header>
+                        <p class="post-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit cupiditate labore nihil nulla voluptatum veniam repellendus culpa ipsam aliquam, ex dolore illum. Repudiandae corporis dolorem, placeat quisquam laudantium consequuntur soluta.
+                        </p>
+                    </article>
+            </div>
+    </div>
+</div>
+<!----------------------Horario y pensum------------------>
+<div class="wrap-container -half" >
+    <div class="info-horario">
+            <h2 class="horario-title">Horarios</h2>
+    
+                <div class="turno">
+                    <h3 class="turno-title">Matutino</h3>
+                    <img class="horario__img --matutino" id="img-turnmatu" src="" alt="">
+                </div>
+            
+                <div class="turno">
+                    <h3 class="turno-title">Vespertino</h3>
+                    <img class="horario__img --vespertino" id="img-turnvesp" src="" alt="">
+                </div>
+            
+                <div class="turno">
+                    <h3 class="turno-title">Nocturno</h3>
+                    <img class="horario__img --nocturno" id="img-turnnoctur" src="" alt="">
+                </div>
+    </div>
+
+    
+        <div class="pensum">
+            <h2 class="pensum-title">Materias</h2>
+                <div class="pensum__list-container --nuevo_ingreso">
+                    <ul class="pensum-list">
+                        <li class="pensum__list-item --titulo">Trayecto Inicial</li>
+                        <li class="pensum__list-item">Lenguaje y Comunicación Libertadora</li>
+                        <li class="pensum__list-item">Cultura, Identidad Nacional y Política</li>
+                        <li class="pensum__list-item">Informática y Sociedad</li>
+                        <li class="pensum__list-item">Venezuela Potencia</li>
+                        <li class="pensum__list-item">Pensamiento Estratégico Matemático</li>
+                    </ul>
+                    
+                </div>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="footer"> </div>
+        <script>
+            fetch("footer.html")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("footer").innerHTML = data;
+                });
+        </script>
+    
+</body>
+</html>

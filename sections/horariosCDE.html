@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Consulta los horarios de trabajo en el control de estudios de la Unexca, donde podrás encontrar las horas de atención, disponibilidad de servicios.">
+
+<!--Meta tags para se comparta la pagina-->
+<meta property="og:title" content="">
+<meta property="og:image" content="">
+<meta property="og:description" content="">
+<meta property="og:url" content="">
+
+<!--Meta tags para compartir-->
+
+    <title>Horarios Control de estudios</title>
+    <link rel="stylesheet" href="/css/general-style.css">
+    <link rel="stylesheet" href="/css/style-horariosCDE.css">
+    <link rel="icon" href="/assets/icon/logo-unexca_favicon-32x32.png" type="image/png">
+</head>
+<body>
+
+    <header class="horarios-header">
+        <div id="navbar"></div>
+        <script>
+            fetch("navbar.html")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("navbar").innerHTML = data;
+                });
+        </script>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horarios de Trabajo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="main">
+
+        <div class="container">
+            <h1>Horarios de Trabajo</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Horario Mañana</th>
+                        <th>Horario Tarde</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Día">Lunes</td>
+                        <td data-label="Horario Mañana">8:00 AM - 12:00 PM</td>
+                        <td data-label="Horario Tarde">1:30 PM - 4:00 PM</td>
+                        <td data-label="Estado"><span class="estado activo">Activo</span></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Día">Martes</td>
+                        <td data-label="Horario Mañana">8:00 AM - 12:00 PM</td>
+                        <td data-label="Horario Tarde">1:30 PM - 4:00 PM</td>
+                        <td data-label="Estado"><span class="estado activo">Activo</span></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Día">Miércoles</td>
+                        <td data-label="Horario Mañana">8:00 AM - 12:00 PM</td>
+                        <td data-label="Horario Tarde">1:30 PM - 4:00 PM</td>
+                        <td data-label="Estado"><span class="estado activo">Activo</span></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Día">Jueves</td>
+                        <td data-label="Horario Mañana">8:00 AM - 12:00 PM</td>
+                        <td data-label="Horario Tarde">1:30 PM - 4:00 PM</td>
+                        <td data-label="Estado"><span class="estado activo">Activo</span></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Día">Viernes</td>
+                        <td data-label="Horario Mañana">8:00 AM - 12:00 PM</td>
+                        <td data-label="Horario Tarde">1:30 PM - 4:00 PM</td>
+                        <td data-label="Estado"><span class="estado activo">Activo</span></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Día">Sabado</td>
+                        <td data-label="Horario Mañana">8:00 AM - 12:00 PM</td>
+                        <td data-label="Horario Tarde">1:30 PM - 4:00 PM</td>
+                        <td data-label="Estado"><span class="estado inactivo">inactivo</span></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Día">Domingo</td>
+                        <td data-label="Horario Mañana">8:00 AM - 12:00 PM</td>
+                        <td data-label="Horario Tarde">1:30 PM - 4:00 PM</td>
+                        <td data-label="Estado"><span class="estado inactivo">Inactivo</span></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+
+
+
+    </main>
+
+
+
+
+
+<div id="footer"> </div>
+<script>
+    fetch("footer.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("footer").innerHTML = data;
+        });
+</script>
+        
+        </header>
+    
+</body>
+</html>

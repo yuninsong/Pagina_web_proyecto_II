@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F6F9;
+    }
+    
+h1{text-align: center;
+padding-bottom: 15px;
+}
+
+    .horarios-header {
+    padding-top: 90px;
+    text-align: center;
+    }
+    
+    .main {
+    min-height: 100vh;
+    padding: 20px;
+    }
+    
+    .container {
+    width: 90%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    border-radius: 15px;
+    }
+    
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    }
+    
+    th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #aaa;
+    }
+    
+    th {
+    background-color: #001A54; 
+    color: #fff;
+    }
+    
+    .estado {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    text-align: center;
+    }
+    
+    .activo {
+    background-color: #4CAF50;
+    }
+    
+    .inactivo {
+    background-color: #f44336;
+    }
+    
+    @media (max-width: 768px) {
+        table, thead, tbody, th, td, tr {
+            display: block;
+        }
+    
+        thead {
+            display: none;
+        }
+    
+        tr {
+            border: 1px solid #ddd;
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 10px; 
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+        }
+    
+        td {
+            position: relative;
+            padding-left: 50%;
+            text-align: right;
+            border: none;
+            border-bottom: 1px solid #eee;
+            font-size: 14px; 
+        }
+    
+        td:before {
+            content: attr(data-label);
+            position: absolute;
+            left: 10px;
+            width: 45%;
+            text-align: left;
+            font-weight: bold;
+            color: #555; 
+            white-space: nowrap;
+        }
+    
+
+        td[data-label="Horario Mañana"],
+        td[data-label="Horario Tarde"] {
+            padding-left: 50%;
+            text-align: right;
+        }
+    
+        td[data-label="Horario Mañana"]:before,
+        td[data-label="Horario Tarde"]:before {
+            content: attr(data-label);
+            position: absolute;
+            left: 10px;
+            width: 45%;
+            text-align: left;
+            font-weight: bold;
+            color: #555; 
+            white-space: nowrap;
+        }
+    
+        .estado {
+            display: inline-block;
+            margin-top: 5px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px; 
+        }
+    
+
+        .activo {
+            background-color: #4CAF50;
+            color: #fff;
+        }
+    
+        .inactivo {
+            background-color: #f44336;
+            color: #fff;
+        }
+    }

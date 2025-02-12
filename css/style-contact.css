@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #001A54;
+min-height: 100vh;
+  
+}
+
+.contact-header{padding-top: 80px;}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 15px;
+    min-height: 80vh;
+}
+
+
+
+.contact-section {
+
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-height: 60vh;
+
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.contact-section .subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.info-item i {
+    font-size: 1.2rem;
+    color: #007bff;
+}
+
+.info-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.info-item a:hover {
+    text-decoration: underline;
+}
+
+/*------------------------media queries-----------------------------*/
+@media (max-width: 768px) {
+    .contact-section {
+        padding: 15px;
+    }
+
+    .contact-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .info-item {
+        font-size: 0.9rem;
+    }
+}
+
+footer{margin-top: auto;
+padding-top: 20vh;
+
+}

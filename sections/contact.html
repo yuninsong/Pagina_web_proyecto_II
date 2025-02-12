@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos UNEXCA</title>
+    <link rel="icon" href="/assets/icon/logo-unexca_favicon-32x32.png" type="image/png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/general-style.css">
+    <link rel="stylesheet" href="/css/style-contact.css">
+
+
+</head>
+<body>
+    <header class="contact-header">
+        <div id="navbar"></div>
+        <script>
+            fetch("navbar.html")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("navbar").innerHTML = data;
+                });
+        </script>
+    </header>
+
+    <main class="main">
+        <div class="main-container">
+
+        <div class="contact-container">
+        <div class="contact-section">
+            <h2>Contacto</h2>
+            <p class="subtitle">¿Tienes alguna pregunta? No dudes en contactarnos.</p>
+            
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="bi bi-envelope"></i>
+                    <a href="mailto:contacto@institucion.com">unexca@gmail</a>
+                </div>
+                <div class="info-item">
+                    <i class="bi bi-telephone"></i>
+                    <a href="tel:+1234567890">123 456 789</a>
+                </div>
+                <div class="info-item">
+                    <i class="bi bi-geo-alt">Esquina Mijares, Avenida Oeste 3, Altagracia, Caracas 1010, 1010, Distrito Capital, Venezuela</i>
+                    <span></span>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </main>
+
+
+    <div class="contact-footer" id="footer"> </div>
+    <script>
+        fetch("footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("footer").innerHTML = data;
+            });
+    </script> 
+</body>
+</html>

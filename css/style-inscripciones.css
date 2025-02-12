@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #001A54;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+
+
+.container {
+    padding-top: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inscripciones {
+    padding: 2rem 1rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inscripciones__header {
+    padding-top: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.inscripciones__main-title {
+    font-size: 2.5rem;
+    color: #FF9800;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.inscripciones__subtitle {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.inscripciones__content {
+    max-width: 1200px;
+    display: flex;
+    gap: 2rem;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.inscripciones__image-wrapper {
+    flex: 1;
+    background-image: url("/assets/img/dentroaltagracia.webp");
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    min-width: 100%;
+}
+
+.inscripciones__info-container {
+    flex: 2;
+    text-align: center;
+}
+
+.inscripciones__section-title {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    color: #FF9800;
+}
+
+.inscripciones__description {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.inscripciones__requirements-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 2rem;
+}
+
+.inscripciones__requirement-item {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #fff9;
+    font-size: 1rem;
+}
+
+.inscripciones__download-section {
+    margin-bottom: 2rem;
+}
+
+.inscripciones__download-link {
+    background-color: #FF9800;
+    color: #FFF;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    display: inline-block;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.inscripciones__download-link:hover {
+    background-color: #E65100;
+    transform: translateY(-2px);
+}
+
+/*----------queries responsive------------------- */
+@media (min-width: 768px) {
+    .inscripciones__content {
+        flex-direction: row;
+    }
+
+    .inscripciones__main-title {
+        font-size: 3rem;
+    }
+
+    .inscripciones__subtitle {
+        font-size: 2rem;
+    }
+
+    .inscripciones__image-wrapper {
+        min-height: 400px;
+        min-width: 400px;
+    }
+
+    .inscripciones__section-title {
+        font-size: 2rem;
+    }
+
+    .inscripciones__description {
+        font-size: 1.2rem;
+    }
+
+    .inscripciones__requirement-item {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .inscripciones__main-title {
+        font-size: 2rem;
+    }
+
+    .inscripciones__subtitle {
+        font-size: 1.25rem;
+    }
+
+    .inscripciones__image-wrapper {
+        min-height: 200px;
+        font-size: 1.25rem;
+    }
+
+    .inscripciones__section-title {
+        font-size: 1.5rem;
+    }
+
+    .inscripciones__description {
+        font-size: 0.9rem;
+    }
+
+    .inscripciones__requirement-item {
+        font-size: 0.9rem;
+    }
+}

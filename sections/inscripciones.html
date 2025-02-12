@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Información detallada sobre el proceso de inscripciones para nuevos estudiantes de la Unexca, con fechas, requisitos y pasos necesarios para completar el registro en la universidad">
+
+
+<!--Meta tags para se comparta la pagina-->
+<meta property="og:title" content="">
+<meta property="og:image" content="">
+<meta property="og:description" content="">
+<meta property="og:url" content="">
+
+<!--Meta tags para compartir-->
+
+    <title>Inscripciones Unexca Altagracia 2025</title>
+    <link rel="stylesheet" href="/css/general-style.css">
+    <link rel="stylesheet" href="/css/style-inscripciones.css">
+    <link rel="icon" href="/assets/icon/logo-unexca_favicon-32x32.png" type="image/png">
+</head>
+<body>
+
+    <header class="inscripciones-header">
+        <div id="navbar"></div>
+        <script>
+            fetch("navbar.html")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("navbar").innerHTML = data;
+                });
+        </script>
+        
+        </header>
+
+
+        <!-- SECCIÓN INSCRIPCIONES -->
+        <section class="inscripciones">
+            <div class="inscripciones__header">
+                <div class="container">
+                    <h1 class="inscripciones__main-title">Inscripciones UNEXCA 2025</h1>
+                </div>
+                <h2 class="inscripciones__subtitle">¡Asegura tu participación!</h2>
+            </div>
+        
+            <div class="inscripciones__content">
+                <div class="inscripciones__info-container">
+                    <p class="inscripciones__description">¡Asegura tu futuro! Inscripciones abiertas para el ciclo 2025.</p>
+                    <p class="inscripciones__description">Fecha límite: ** de **** de 2025</p>
+        
+                    <h2 class="inscripciones__section-title">Requisitos de Inscripción</h2>
+                    <ul class="inscripciones__requirements-list">
+                        <li class="inscripciones__requirement-item">Copia de la cédula de identidad</li>
+                        <li class="inscripciones__requirement-item">Copia del título de bachiller</li>
+                        <li class="inscripciones__requirement-item">Copia de la planilla OPSU</li>
+                        <li class="inscripciones__requirement-item">Foto tipo carnet</li>
+                        <li class="inscripciones__requirement-item">Planilla de inscripción llena (sacar copia para guardar)</li>
+                    </ul>
+        
+                    <div class="inscripciones__download-section">
+                        <p class="inscripciones__description">Descarga la planilla de inscripción aquí:</p>
+                        <a href="#" class="inscripciones__download-link">Descargar Planilla</a>
+                    </div>
+                </div>
+        
+
+                <div class="inscripciones__image-wrapper">
+                    <h2></h2>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <div id="footer"> </div>
+        <script>
+            fetch("footer.html")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("footer").innerHTML = data;
+                });
+        </script>
+    
+</body>
+</html>

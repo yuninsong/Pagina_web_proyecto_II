@@ -1,0 +1,7 @@
+body{background-color: #001A54; }
+.--event-main{background-color: #00103a;
+}
+.--event-titles, .event__main-title{color: #FF9800 !important;}
+.--event-news{background-color: #00103a;
+}
+p{color: #ededed !important;}

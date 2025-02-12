@@ -1,0 +1,304 @@
+
+*{font-family: Helvetica, Arial,  sans-serif;}
+
+body, div, main, ul, li, a{margin: 0; padding: 0; box-sizing: border-box;}
+
+h1, h2, h3{text-wrap: balance;}
+p{text-wrap: pretty;}
+
+.carrera-header{padding-bottom: 80px;}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F2F6F9
+
+  }
+
+    .wrap-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+
+
+
+    }
+    
+    .title-wrap {
+        text-align: center;
+        background-color: #fff;
+        padding: 40px;
+    }
+    
+    .carrera-title {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+        color: #36495C;
+    }
+    
+    .carrera-text {
+        line-height: 1.6;
+        font-size: 1.2rem;
+        text-justify: auto;
+
+
+
+    }
+    
+    .carrera-sections__list {
+        list-style: none;
+        padding: 0;
+        margin-top: 20px;
+    }
+    
+    .carrera-sections__item {
+        margin-bottom: 10px;
+    }
+    
+    .carrera-sections__link {
+        text-decoration: none;
+        color: #007bff;
+        transition: color 0.3s;
+    }
+    
+    .carrera-sections__link:hover {
+        color: #0056b3;
+    }
+    
+    .post__section {
+
+        padding: 15px;
+        border-radius: 8px;
+        margin-top: 30px;
+    }
+    
+    .section-post__title {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+    
+    .post {
+        margin-bottom: 20px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+    
+    .post-title {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    
+    .post-text {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    
+.-half{
+    background-color: #001A54;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #ededed; 
+    margin: auto;
+    max-width: 100%;
+    
+
+    
+    }
+
+
+
+    .info-horario {
+
+        padding: 15px;
+        padding-top: 40px;
+        border-radius: 8px;
+        margin-top: 30px;
+        height: auto;
+ 
+
+
+    }
+    
+    .horario-title {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+        color: #ededed;
+        text-align: center;
+    }
+    
+    .turno {
+        margin-bottom: 15px;
+        color: #ededed;
+    }
+    
+    .turno-title {
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    .horario__img {
+        width: 100%;
+        max-height: 200px;
+        object-fit: cover;
+        border-radius: 5px;
+        margin: auto;
+    }
+    
+    .pensum {
+
+        padding: 15px;
+        border-radius: 8px;
+        margin-top: 30px;
+
+    }
+    
+/*---------------- Estilos para el contenedor del pensum------------*/
+.pensum {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+
+.pensum-title {
+    text-align: center;
+    font-size: 2em;
+    color: #FFf;
+    margin-bottom: 30px;
+
+}
+
+
+.pensum__list-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(4, 1fr); 
+    justify-content: center;
+    align-items: start;
+    padding-bottom: 50px;
+}
+
+
+.pensum-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #00103a;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+.pensum-list:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.pensum__list-item {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    font-size: 1em;
+    color: #eee;
+    text-align: center;
+}
+
+
+.pensum__list-item.--titulo {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+    background-color: #e0e0e0;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+
+
+.pensum__list-item:last-child {
+    border-bottom: none;
+}
+
+
+.pensum__list-item:not(.--titulo):hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+    color: #00103a;
+}
+
+
+
+
+
+
+    .--nuevo_ingreso{ grid-template-columns: 400px;
+        grid-template-rows: 1fr;
+    }
+    
+    
+    .pensum-list {
+margin: 5px;
+
+    }
+    
+
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .main > .post__section,
+    .main > .info-horario,
+    .main > .pensum {
+        flex: 1 1 100%; 
+    }
+    
+
+/*------------media queries---------------*/
+    @media (max-width: 768px) {
+        .title-wrap {
+        text-align: left;
+        
+        }
+    
+        .carrera-title {
+        font-size: 2rem;
+        }
+    
+        .carrera-text {
+        font-size: 1rem;
+        }
+    
+        .post {
+        padding: 10px;
+        }
+    
+        .horario__img {
+        max-height: 150px;
+        }
+    
+        .info-horario {
+        padding: 10px;
+        }
+    
+        .main {
+        flex-direction: column;
+        }
+    
+
+        .pensum__list-container{grid-template-columns:  1fr;
+        
+        }
+    }
+    

@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.index-header{height: 60px;}
+
+body {
+    background-color: #001A54;  
+    font-family: Arial, sans-serif;
+}
+
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    max-width: 1400px; 
+    margin: 0 auto;
+    padding: 15px;
+    min-height: 80vh;
+}
+
+.main-info {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 100%;
+    align-items: stretch;
+    flex-grow: 1; 
+}
+
+.sede-info, .uni-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 15px;
+    color: #fff;
+    text-align: center;
+    min-height: 100%;
+    flex-grow: 1; 
+}
+
+.sede-info {
+    background-image: linear-gradient(#000a, #0003), url("/assets/img/unexca-sede.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.uni-info {
+    background-color: #F2F6F9;
+    color: #36495C;
+}
+
+.sede__info-title, .uni__info-title {
+    font-size: 24px;
+    margin-bottom: 8px;
+    text-wrap: balance;
+}
+
+.sede__info-subtitle {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.link-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sede__info-link {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    padding: 12px;
+    transition: background-color 0.5s;
+}
+
+.sede__info-link:hover {
+    background-color: #f9f9f9;
+    color: #36495C;
+}
+
+.uni__info-text {
+    text-wrap: pretty;
+    line-height: 1.6;
+}
+
+
+/*-------------------Queries dispositivos moviles-------------*/
+
+@media only screen and (max-width: 768px) {
+
+    .main-info {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .sede-info, .uni-info {
+        width: 100%;
+        min-height: auto;
+        padding: 20px;
+    }
+
+    .sede-info{min-height: 80vh;}
+
+    .sede__info-title, .uni__info-title {
+        font-size: 1.5rem;
+    }
+
+    .sede__info-subtitle {
+        font-size: 1rem;
+    }
+
+    .sede__info-link {
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    .uni__info-text {
+        font-size: 1rem;
+    }
+}
+
